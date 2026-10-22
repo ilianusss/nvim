@@ -76,7 +76,7 @@ Everything installed by this config, by section (same sections as the folders in
 | # | Name | Keymapping | What it does | GitHub repo |
 |---|---|---|---|---|
 | 43 | rustaceanvim | — (LSP keymaps) | Rust: rust-analyzer with clippy, runnables, macro expansion | [mrcjkb/rustaceanvim](https://github.com/mrcjkb/rustaceanvim) |
-| 44 | nvim-lint | — (results in `<leader>xx`) | Linters that aren't LSPs: eslint_d, ruff, shellcheck, hadolint, tflint, markdownlint-cli2, sqlfluff | [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint) |
+| 44 | nvim-lint | — (results in `<leader>xx`) | Linters that aren't LSPs: eslint_d, ruff, shellcheck, hadolint, tflint, sqlfluff | [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint) |
 | 45 | lazydev.nvim | — | Neovim Lua API completion and types when editing this config | [folke/lazydev.nvim](https://github.com/folke/lazydev.nvim) |
 | 46 | SchemaStore.nvim | — | JSON/YAML schemas for jsonls/yamlls (package.json, tsconfig, GitHub Actions, compose, Chart.yaml) | [b0o/SchemaStore.nvim](https://github.com/b0o/SchemaStore.nvim) |
 | 47 | live-preview.nvim | `:LivePreview start` / `:LivePreview close` | Live Markdown/HTML preview in the browser | [brianhuster/live-preview.nvim](https://github.com/brianhuster/live-preview.nvim) |
@@ -122,7 +122,6 @@ Everything installed by this config, by section (same sections as the folders in
 | 72 | yaml-language-server (yamlls) | — | YAML language server (SchemaStore + Kubernetes schemas) | [redhat-developer/yaml-language-server](https://github.com/redhat-developer/yaml-language-server) |
 | 73 | eslint_d | — | JS/TS linter (only in projects with an ESLint config) | [mantoni/eslint_d.js](https://github.com/mantoni/eslint_d.js) |
 | 74 | hadolint | — | Dockerfile linter | [hadolint/hadolint](https://github.com/hadolint/hadolint) |
-| 75 | markdownlint-cli2 | — | Markdown linter | [DavidAnson/markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) |
 | 76 | ruff | — | Python linter | [astral-sh/ruff](https://github.com/astral-sh/ruff) |
 | 77 | shellcheck | — | Shell linter | [koalaman/shellcheck](https://github.com/koalaman/shellcheck) |
 | 78 | sqlfluff | — | SQL linter and formatter (dialect: `vim.g.sqlfluff_dialect` unless the project has `.sqlfluff`) | [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff) |

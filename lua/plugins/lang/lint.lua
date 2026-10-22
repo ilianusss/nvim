@@ -11,7 +11,6 @@ local linters_by_ft = {
     bash = { "shellcheck" },
     dockerfile = { "hadolint" },
     terraform = { "tflint" },
-    markdown = { "markdownlint-cli2" },
     sql = { "sqlfluff" },
 }
 

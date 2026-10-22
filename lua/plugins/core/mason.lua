@@ -41,7 +41,6 @@ return {
                 -- Linters (used by plugins/lang/lint.lua)
                 "eslint_d",
                 "hadolint",
-                "markdownlint-cli2",
                 "ruff",
                 "shellcheck",
                 "sqlfluff", -- also formats SQL
