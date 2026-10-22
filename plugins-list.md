@@ -1,7 +1,7 @@
 # Plugins list
 
-Everything installed by this config, by section (same sections as `FEATURES-V2.md` and as the
-folders in `lua/plugins/`). Every keymap is defined in `lua/config/keymaps.lua`.
+Everything installed by this config, by section (same sections as the folders in
+`lua/plugins/`). Every keymap is defined in `lua/config/keymaps.lua`.
 `<leader>` is Space. Press it and wait to see the keymaps in the which-key popup.
 
 ## A. Core — `lua/plugins/core/`

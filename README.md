@@ -4,7 +4,6 @@ Requires Neovim 0.12+. Plugins, language servers, linters, formatters and treesi
 install themselves on first launch: open `nvim` and wait for the installs to finish.
 
 - `plugins-list.md`: every plugin and tool, with keymaps.
-- `FEATURES-V2.md`: what this config includes and excludes.
 
 ## Install on the machine
 

@@ -3,7 +3,6 @@
 Neovim (0.12+) config for macOS and Linux, used instead of VS Code. Claude Code CLI writes the
 code and runs the tests; Neovim is for reading diffs and files, small edits and debugging.
 
-- `FEATURES-V2.md`: the spec — what is in, and the "Explicitly excluded" list (never add those).
 - `plugins-list.md`: inventory of every plugin/tool with its keymaps and repo. Keep it in sync.
 
 ## Layout

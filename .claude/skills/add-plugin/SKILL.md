@@ -5,7 +5,6 @@ description: How to add (or remove) a package in this Neovim config — a lazy.n
 
 # Adding a package
 
-0. Check `FEATURES-V2.md`: never add anything from its "Explicitly excluded" list.
 1. Find what kind of package it is:
 
 | You want to add...                         | Section |
