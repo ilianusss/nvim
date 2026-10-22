@@ -68,7 +68,7 @@ folders in `lua/plugins/`). Every keymap is defined in `lua/config/keymaps.lua`.
 | # | Name | Keymapping | What it does | GitHub repo |
 |---|---|---|---|---|
 | 40 | gitsigns.nvim | `]c` / `[c` next / previous hunk · `<leader>gp` preview hunk · `<leader>gr` reset hunk · `<leader>gb` toggle inline blame | Read changes line by line; inline blame (off by default) | [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) |
-| 41 | diffview.nvim | `<leader>gd` diff all modified files · `<leader>gh` file history · `<leader>gq` close | Whole change / branch side by side, file history, merge-conflict editor | [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim) |
+| 41 | nvim-diff (local) | `<leader>gd` review changes · `<leader>gq` close · in the view `g?` help · shell: `nvim diff` | VS Code-style review: changed files (staged / unstaged / conflicts), side-by-side diff, stage / restore, whitespace toggle, live refresh, 3-way conflict tool | `~/Desktop/nvim-diff` |
 | 42 | snacks.lazygit | `<leader>gg` | lazygit in a floating window: stage, commit, rebase, push (needs `lazygit`) | [folke/snacks.nvim](https://github.com/folke/snacks.nvim) |
 
 ## F. Languages — `lua/plugins/lang/`

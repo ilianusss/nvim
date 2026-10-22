@@ -133,13 +133,12 @@ map("n", "<leader>gb", function()
     require("gitsigns").toggle_current_line_blame()
 end, { desc = "Toggle inline blame" })
 
--- Git: review changes (telescope git pickers, diffview)
+-- Git: review changes (telescope git pickers, nvim-diff). Keys inside the review: g?
 map("n", "<leader>gs", "<cmd>Telescope git_status<CR>", { desc = "Modified files (git status)" })
 map("n", "<leader>gc", "<cmd>Telescope git_commits<CR>", { desc = "Commits" })
 map("n", "<leader>gf", "<cmd>Telescope git_bcommits<CR>", { desc = "Commits of current file" })
-map("n", "<leader>gd", "<cmd>DiffviewOpen<CR>", { desc = "Diff all modified files" })
-map("n", "<leader>gh", "<cmd>DiffviewFileHistory %<CR>", { desc = "File history (diffview)" })
-map("n", "<leader>gq", "<cmd>DiffviewClose<CR>", { desc = "Close diffview" })
+map("n", "<leader>gd", "<cmd>NvimDiff<CR>", { desc = "Review changes (nvim-diff)" })
+map("n", "<leader>gq", "<cmd>NvimDiffClose<CR>", { desc = "Close the review (nvim-diff)" })
 
 -- Tools: floating terminals (snacks) and database UI (dadbod)
 local function float_tool(cmd)
