@@ -10,6 +10,16 @@ vim.api.nvim_create_autocmd("TextYankPost", {
     end,
 })
 
+vim.api.nvim_create_autocmd("FileType", {
+    desc = "Wrap long lines in markdown files",
+    group = augroup("wrap_markdown"),
+    pattern = "markdown",
+    callback = function()
+        vim.opt_local.wrap = true
+        vim.opt_local.linebreak = true
+    end,
+})
+
 -- Reopen files where you left them (see :h restore-cursor)
 vim.api.nvim_create_autocmd("BufReadPost", {
     desc = "Restore last cursor position",
